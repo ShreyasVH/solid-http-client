@@ -79,9 +79,9 @@ function Server(props) {
             return (
                 <div>
                     <For each={parts}>{ part =>
-                        <>
+                        <section class="verb">
                             {renderPart(part)}
-                        </>
+                        </section>
                     }</For>
                 </div>
             );
@@ -95,9 +95,9 @@ function Server(props) {
     };
 
     return (
-        <>
+        <section className="server">
             {renderParts()}
-        </>
+        </section>
     )
 }
 
