@@ -3,7 +3,7 @@ import Server from './server';
 function DotNetCore() {
     return (
         <>
-            <Server endpoint={'https://cors.dotnet.com'} />
+            <Server endpoint={'https://cors.dotnetcore.com'} />
         </>
     )
 }
