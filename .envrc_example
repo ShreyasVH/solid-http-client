@@ -3,3 +3,5 @@ export PATH=
 
 export VITE_HOST=
 export VITE_PORT=
+export VITE_HOST=
+export ALLOWED_HOSTS=
