@@ -1,7 +1,7 @@
-# node 18.16.0 path
+# node 25.8.1 path
 export PATH=
 
-export VITE_HOST=
+export PORT=
 export VITE_PORT=
 export VITE_HOST=
 export ALLOWED_HOSTS=
