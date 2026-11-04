@@ -77,13 +77,13 @@ function Server(props) {
     const renderParts = () => {
         if (data().loaded) {
             return (
-                <div>
+                <section className="server" data-class={'server'}>
                     <For each={parts}>{ part =>
                         <section class="verb" data-class={'verb'}>
                             {renderPart(part)}
                         </section>
                     }</For>
-                </div>
+                </section>
             );
         } else {
             return (
@@ -95,9 +95,9 @@ function Server(props) {
     };
 
     return (
-        <section className="server" data-class={'server'}>
+        <div>
             {renderParts()}
-        </section>
+        </div>
     )
 }
 
